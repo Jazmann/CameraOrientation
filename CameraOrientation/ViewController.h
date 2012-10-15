@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <opencv2/highgui/CvVideoCamera.h>
+// #import <opencv2/highgui/CvVideoCamera.h>
+#import <opencv2/highgui/cap_ios.h>
 
 
 @interface ViewController : UIViewController<CvVideoCameraDelegate>
