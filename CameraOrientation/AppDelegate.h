@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  CameraOrientation
+//  FindHomography
 //
-//  Created by Jasper Shemilt on 11/10/2012.
-//  Copyright (c) 2012 Jasper Shemilt. All rights reserved.
+//  Created by Eduard Feicho on 26.06.12.
+//  Copyright (c) 2012 Eduard Feicho. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
