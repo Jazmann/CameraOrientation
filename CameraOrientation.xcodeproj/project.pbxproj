@@ -312,10 +312,13 @@
 		5C5C07B21599A83300B94843 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../openCV_Dev/ios\"",
 				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraOrientation/CameraOrientation-Prefix.pch";
 				INFOPLIST_FILE = "CameraOrientation/CameraOrientation-Info.plist";
@@ -327,10 +330,13 @@
 		5C5C07B31599A83300B94843 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../openCV_Dev/ios\"",
 				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraOrientation/CameraOrientation-Prefix.pch";
 				INFOPLIST_FILE = "CameraOrientation/CameraOrientation-Info.plist";
